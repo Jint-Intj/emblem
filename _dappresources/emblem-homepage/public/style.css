@@ -1,0 +1,52 @@
+body {
+  color: #000000;
+  background: skyblue;
+  font-family: verdana;
+  padding: 30px;
+}
+.img {
+  display: block;
+}
+h1 {
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2 {
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+}
+p {
+  font-size: 16px;
+  line-height: 2;
+  text-align: left;
+}
+iframe {
+    display: block;
+    height: 599px;
+    margin: auto;
+    width: 778px;
+}
+table, th, td {
+	border: 1px solid black;
+}
+table {
+  background-color: skyblue;
+	border-collapse: collapse;
+  color: #000000;
+  text-align: center;
+  width: 100%;
+}
+td {
+  text-align: left;
+  width: 351px;
+}
+.blockquote {
+  margin:20px auto;
+  max-width: 100%;
+  padding: 20px;
+  width: 700px;
+}

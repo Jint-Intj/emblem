@@ -1,0 +1,37 @@
+{{# if success }}
+    <section class="success">
+      {{{ dappresources.emblemhtml }}}
+    </section>
+{{ else }}
+    {{# if errors }}
+        <section class="errors">
+            <ul>
+                {{# each errors }}
+                    <li>{{ this.msg }}</li>
+                {{/each}}
+            </ul>
+        </section>
+    {{/if}}
+    <h1>Welcome to Jint-Intj’s Dapp!</h1>
+    <p>This is an open source prototype that I've been working on, and it will eventually only require two clicks to render a single page of html code associated to my pen name: Jint Intj. The appplication as a whole entails a modest self-managed form of personal ID that I'll often refer to as an Emblem, which in my case I'll use to explore a passion of mine. My Emblem's single page of html code will certainly provide a better desription of that endeavor, but for crusory perspective it can be phrased: to advance good governance administrative controls - by way of my pen name’s authorship activities - with organizations that adhere to tax-exempt purposes within the United States of America in mind. That was a unintentional mouthfull. What's most important for now is that if you're interested in potential applications of blockchain technology, business-models, or simply viewing a non-programmer such as myself learn from a healthy number of mistakes - good-karma intended of course - then this project would be a pretty chill spot to regularlly visit.</p>
+    <form action="/submit" method="post">
+            <label for="v_evm">Emblem’s Version (per EVM call):</label>
+            <input type="text" id="v_evm" name="v_evm" value="{{ dappresources.versioncontrol }}">
+            <label for="v_resources">Emblem’s Version (per Dapp’s resources):</label>
+            <input type="text" id="v_resources" name="v_resources" value="{{ dappresources.versioncontrol }}">
+            <label for="v_git">Emblem’s Version (per Github repo):</label>
+            <div class="iframe">
+            <iframe id="v_git" name="v_git" src="https://raw.githubusercontent.com/Jint-Intj/emblem/master/jints_emblemvc.txt" height="24px" width="425px" scrolling="yes"></iframe><br>
+            </div>
+            <label for="h_resources">Emblem’s html (per Dapp’s resources):</label>
+            <textarea rows="5" cols="66" id="h_resources" name="h_resources" scrolling="yes">{{ dappresources.emblemhtml }}</textarea>
+            <label for="h_git">Emblem’s html (per Github repo):</label>
+            <div class="iframe">
+            <iframe id="h_git" name="h_git" src="https://raw.githubusercontent.com/Jint-Intj/emblem/master/jints_emblemhtml.txt" width="425px" scrolling="yes"></iframe><br>
+            </div>
+            <button class="center" type="submit">SUBMIT</button>
+    </form>
+    <p>*Please note that my pen name of Jint Intj is not an incorporated organization, an ICO, nor are the business-model's I anticipate to advance as a result of Jint's authorship activities. Also, I'm a person.</p>
+    <p>**Brought to you by self-prepared Romane Noodles & PB&Js, and the unconditional support of others.</p>
+
+    {{/if}}
