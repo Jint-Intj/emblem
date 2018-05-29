@@ -1,12 +1,13 @@
+a {
+  color: #00B7FF;
+}
 body {
-  color: #000000;
   background: skyblue;
+  color: #000000;
   font-family: verdana;
   padding: 30px;
 }
-.img {
-  display: block;
-}
+
 h1 {
   color: #000000;
   font-size: 36px;
@@ -24,11 +25,17 @@ p {
   line-height: 2;
   text-align: left;
 }
-iframe {
-    display: block;
-    height: 599px;
-    margin: auto;
-    width: 778px;
+input, label{
+  display: block;
+  margin: 10px 0;
+  padding: 5px;
+  width: 100%;
+}
+textarea {
+  display: block;
+  margin: 10px 0;
+  padding: 5px;
+  width: 100%;
 }
 table, th, td {
 	border: 1px solid black;
@@ -44,6 +51,14 @@ td {
   text-align: left;
   width: 351px;
 }
+
+img {
+  display: block;
+  height: 581px;
+  margin: auto;
+  width: 768px;
+}
+
 .blockquote {
   margin:20px auto;
   max-width: 100%;

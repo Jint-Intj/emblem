@@ -55,33 +55,38 @@ h1 {
   letter-spacing: 2px;
   text-align: center;
 }
+
 h2 {
   color: #000000;
   font-size: 16px;
   text-align: center;
 }
+
 p {
   font-size: 16px;
   text-align: left;
   line-height: 2;
 }
+
 form {
   width: 400px;
   max-width: 100%;
   padding: 20px;
-  margin:20px auto;
+  margin: 20px auto;
 }
-input, label{
+
+input, label {
   display: block;
   margin: 10px 0;
   padding: 5px;
   width: 100%;
 }
+
 .iframe {
-    display: block;
-    margin: 10px 0;
-    padding: 5px;
-    width: 100%;
+  display: block;
+  margin: 10px 0;
+  padding: 5px;
+  width: 100%;
 }
 
 textarea {
@@ -90,30 +95,38 @@ textarea {
   padding: 5px;
   width: 100%;
 }
+
 table, th, td {
-	border: 1px solid black;
+  border: 1px solid black;
 }
+
 table {
-	border-collapse: collapse;
+  border-collapse: collapse;
   background-color: skyblue;
   text-align: center;
   color: #000000;
   width: 100%;
 }
+
 td {
   text-align: left;
   width: 351px;
 }
+
 img {
   margin: auto;
   display: block;
   height: 581px;
   width: 768px;
 }
+
 .blockquote {
   width: 700px;
   max-width: 100%;
   padding: 20px;
-  margin:20px auto;
+  margin: 20px auto;
 }
-input[type='submit']{width: auto;}
+
+input[type='submit'] {
+  width: auto;
+}
