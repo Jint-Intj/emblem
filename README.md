@@ -40,7 +40,7 @@ Overall, the concept is for a given user to maintain two values, which as of now
 
 ## Usage
 
-Visual demonstration can be accessed with the following URL: youtube.com/playlist?list=PLwbLKNAzuL2oPQlcaSV501B
+Visual demonstration can be accessed with the following URL: https://www.youtube.com/playlist?list=PLwbLKNAzuL2oPQlcaSV501B-R8gh_UF8a
 
 ## Troubleshooting
 
