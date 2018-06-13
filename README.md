@@ -1,8 +1,8 @@
-emblem (emblem_Jint-Intj)
+## Emblem Project (emblem_Jint-Intj)
 
 The makings of a bespoken user-maintainable form of ID – often referred to as an emblem.
 
-##Foreword
+## Foreword
 
 Thank you for visiting my emblem repo! In so many words, I’m advancing a user maintainable form of id, which I often refer to as an emblem. The project is truly within its’ infancy, and a huge objective of mine is to it actively advance it as an open-source project. This readme.md will be rough around the edges, predominantly because my aim was to make a huge dent towards that objective with the repo’s current 06.12.18 commit. Then take a week-long cold shower to gauge what I’m missing, what has worked to date. An occasional cold shower or two can be pretty clutch for bootstrapped projects such this one, wu wu wu (don’t stress if that last one goes over your head).  At any rate, I’ve prepared this text with experienced developers as its’ target audience in mind. I’m very new coding, so I figured it would be helpful for developers interested in gaining a decent amount of perspective related to the code contained within this repo – prior to potentially developing with it within a testing environment.
 
@@ -40,7 +40,7 @@ Overall, the concept is for a given user to maintain two values, which as of now
 
 ## Usage
 
-Visual demonstration can be accessed with the following URL: https://www.youtube.com/playlist?list=PLwbLKNAzuL2oPQlcaSV501B-R8gh_UF8a
+A visual demonstration can be accessed from the following URL: https://www.youtube.com/playlist?list=PLwbLKNAzuL2oPQlcaSV501B-R8gh_UF8a
 
 ## Troubleshooting
 
